@@ -1,80 +1,150 @@
-# Keeper Password Manager – Manual E2E Testing
+# 🔐 Manual Testing of Password Manager (Web & Browser Extension)
 
-End-to-end **manual testing** of the Keeper Password Manager browser extension.
-This project covers **UI, API, authentication, security, and system-level testing**.
-Automation testing is intentionally excluded.
+## 📌 Project Overview
+This repository contains **end-to-end manual testing documentation** for a **Password Manager application (Keeper-like)**.  
+The project focuses on validating **security, functionality, usability, and reliability** from a real-user perspective.
 
----
-
-## 🔍 Testing Coverage
-
-### Extension & UI
-- Extension installation & permissions
-- UI validation (labels, errors, tooltips)
-- User experience and usability checks
-
-### Authentication & Authorization
-- Sign up & login flow
-- Invalid credential handling
-- Master password validation
-- Session timeout & auto-lock
-- Logout behavior
-- Token/session invalidation (manual verification)
-
-### Vault Management
-- Add, edit, delete credentials
-- Folder creation & organization
-- Search and filtering
-- Data persistence after refresh / restart
-
-### Autofill & Browser Behavior
-- Website login detection
-- Autofill accuracy
-- Multiple account handling
-- Manual vs auto-fill behavior
-
-### Password Generator
-- Password strength rules
-- Customization options
-- Saving generated passwords
-
-### API Testing (Manual)
-- Authentication-related API behavior
-- Vault data API verification (via browser dev tools)
-- Request/response validation
-- Error handling and status codes
-- Token usage observation
-
-### Security Testing (Manual)
-- Vault lock after inactivity
-- Clipboard timeout behavior
-- Data visibility after logout
-- Unauthorized access attempts
-- Network interruption scenarios
-
-### Negative & Edge Cases
-- Invalid input handling
-- Network failure
-- Unexpected user actions
-- Browser restart scenarios
+Special attention is given to **security-critical features** such as authentication, master password handling, vault protection, browser extension behavior, auto-fill validation, and session management.
 
 ---
 
-## 🧪 Testing Type
-
-- Manual Testing
-- End-to-End (E2E) Testing
-- Functional Testing
-- API Testing (Manual)
-- Authentication & Authorization Testing
-- Security Testing
-- Regression Testing
-
-> ❌ Automation testing is not included in this project.
+## 🎯 Objectives
+- Validate secure handling of sensitive user credentials  
+- Ensure correct end-to-end user workflows  
+- Identify functional, security, and usability defects  
+- Demonstrate professional manual QA documentation skills  
 
 ---
 
-## 🌐 Application Under Test
+## 🧪 Type of Testing Performed
+- Manual Functional Testing  
+- Manual Security Testing (QA perspective)  
+- Browser Extension Testing  
+- Negative & Edge Case Testing  
+- Compatibility Testing  
+- Usability Testing  
 
-- Product: Keeper Password Manager
-- Platform: Browser Extension (Chrome)
+---
+
+## 🧩 Test Scope (In-Scope)
+
+### 🔐 Authentication & Security
+- User login & logout  
+- Master password creation & change  
+- Two-Factor Authentication (2FA)  
+- Session management & auto-lock  
+- Brute-force protection  
+- Token invalidation after logout  
+
+---
+
+### 🗄️ Vault Management
+- Vault access control  
+- Add / Edit / Delete credentials  
+- Password masking & visibility control  
+- Clipboard auto-clear verification  
+- Folder and category handling  
+
+---
+
+### 🔑 Password Operations
+- Password generator validation  
+- Auto-save credentials  
+- Password update detection  
+- Duplicate credential handling  
+
+---
+
+### 🌐 Browser Extension Testing
+- Extension installation & permission validation  
+- Extension login/logout  
+- Vault access via extension  
+- Auto-fill on correct domains  
+- Auto-fill prevention on phishing or similar domains  
+- Incognito mode behavior  
+
+---
+
+### 🔄 Sync & Data Consistency
+- Web ↔ Extension synchronization  
+- Data update & delete sync  
+- Offline → online sync behavior  
+
+---
+
+### ⚠️ Negative & Edge Case Testing
+- Invalid input handling  
+- Expired or incorrect OTP  
+- Network failure scenarios  
+- Multiple failed login attempts  
+- Clipboard misuse scenarios  
+
+---
+
+### 🎨 UI / UX Testing
+- Error message clarity  
+- Password strength indicator  
+- Layout alignment & responsiveness  
+- Basic accessibility validation  
+
+---
+
+## 🚫 Out of Scope
+- Automation testing  
+- Penetration testing  
+- Performance / load testing  
+- Source code review  
+- Server-side encryption verification  
+
+---
+
+## 🛠️ Test Environment
+
+### Platforms
+- Web Application  
+- Browser Extension  
+
+### Browsers
+- Google Chrome  
+- Mozilla Firefox  
+- Microsoft Edge  
+
+### Network Conditions
+- Normal Wi‑Fi  
+- Slow network  
+- Offline mode  
+- VPN (basic)  
+
+---
+
+## 🧾 Test Artifacts Included
+- Test Scenarios Document  
+- Manual Test Coverage (A–Z)  
+- Severity Classification  
+- Risk-Based Testing Approach  
+
+---
+
+## 🚦 Severity Levels
+| Severity | Description |
+|--------|------------|
+| High | Security risk, data exposure, authentication bypass |
+| Medium | Logic issues, sync failures, validation problems |
+| Low | UI, cosmetic, usability issues |
+
+---
+
+## 🧠 Key Learnings
+- Security-focused manual testing methodology  
+- Browser extension QA techniques  
+- Risk-based severity classification  
+- Professional QA documentation practices  
+
+---
+
+## 👤 Author
+**MD. Rezwanul Islam Rimel**  
+Manual QA Tester  
+
+---
+
