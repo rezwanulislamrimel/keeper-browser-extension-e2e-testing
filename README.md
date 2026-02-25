@@ -1,4 +1,4 @@
-# 🔐 Manual Testing of Password Manager (Web And Browser Extension)
+#  Manual Testing of Password Manager (Web And Browser Extension)
 
 ##  Project Overview
 This repository contains **end-to-end manual testing documentation** for a **Password Manager application (Keeper-like)**.  
