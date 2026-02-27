@@ -6,7 +6,6 @@ The project focuses on validating **security, functionality, usability, and reli
 
 Special attention is given to **security-critical features** such as authentication, master password handling, vault protection, browser extension behavior, auto-fill validation, and session management.
 
----
 
 ## 🎯 Objectives
 - Validate secure handling of sensitive user credentials  
