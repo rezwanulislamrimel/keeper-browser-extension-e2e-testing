@@ -144,6 +144,7 @@ Special attention is given to **security-critical features** such as authenticat
 ## 👤 Author
 **MD. Rezwanul Islam Rimel**  
 Manual QA Tester  
+LinkedIn:https://www.linkedin.com/in/rezwanulrimel/
 
 ---
 
