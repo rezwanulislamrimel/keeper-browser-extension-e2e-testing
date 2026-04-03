@@ -1,150 +1,92 @@
-#  Manual Testing of Password Manager (Web And Browser Extension)
+# <p align="center">🛡️ Password Manager: Security-First Manual QA Suite</p>
 
-##  Project Overview
-This repository contains **end-to-end manual testing documentation** for a **Password Manager application (Keeper-like)**.  
-The project focuses on validating **security, functionality, usability, and reliability** from a real-user perspective.
-
-Special attention is given to **security-critical features** such as authentication, master password handling, vault protection, browser extension behavior, auto-fill validation, and session management.
-
-
-## 🎯 Objectives
-- Validate secure handling of sensitive user credentials  
-- Ensure correct end-to-end user workflows  
-- Identify functional, security, and usability defects  
-- Demonstrate professional manual QA documentation skills  
+<p align="center">
+  <img src="https://img.shields.io/badge/Security-A%2B%20Focused-red?style=for-the-badge&logo=google-cloud" />
+  <img src="https://img.shields.io/badge/QA-Manual%20Expert-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Extension-Web%20%7C%20Extension-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge" />
+</p>
 
 ---
 
-## 🧪 Type of Testing Performed
-- Manual Functional Testing  
-- Manual Security Testing (QA perspective)  
-- Browser Extension Testing  
-- Negative & Edge Case Testing  
-- Compatibility Testing  
-- Usability Testing  
+### 📖 Project Overview
+> [!IMPORTANT]
+> This repository is a comprehensive **End-to-End Manual Testing Portfolio**. It validates high-security encryption workflows, browser extension behaviors, and cross-device data integrity for a Keeper-style Password Manager.
 
 ---
 
-## 🧩 Test Scope (In-Scope)
+## 🧪 Testing Methodologies & Depth
 
-### 🔐 Authentication & Security
-- User login & logout  
-- Master password creation & change  
-- Two-Factor Authentication (2FA)  
-- Session management & auto-lock  
-- Brute-force protection  
-- Token invalidation after logout  
+#### 🟦 **Security-Centric QA**
+* **Authentication Logic:** Validating 2FA, Brute-force lockouts, and Master Password change integrity.
+* **Session Forensics:** Testing token invalidation, auto-lock timeouts, and memory-clearing (Clipboard).
 
----
-
-### 🗄️ Vault Management
-- Vault access control  
-- Add / Edit / Delete credentials  
-- Password masking & visibility control  
-- Clipboard auto-clear verification  
-- Folder and category handling  
+#### 🟧 **Browser Extension Validation**
+* **Incognito Mode:** Testing behavior in private browsing to ensure no data leaks.
+* **Injection Testing:** Validating auto-fill accuracy across various input field types (Shadow DOMs).
 
 ---
 
-### 🔑 Password Operations
-- Password generator validation  
-- Auto-save credentials  
-- Password update detection  
-- Duplicate credential handling  
+## 📊 Test Execution Summary
+
+| 📈 Metric | 📋 Performance Details |
+| :--- | :--- |
+| **Total Test Scenarios** | <kbd>60+ (A-Z Coverage)</kbd> |
+| **Testing Type** | `Manual`, `Black-box`, `Exploratory` |
+| **Risk Assessment** | 🛡️ **High-Risk Coverage Included** |
 
 ---
 
-### 🌐 Browser Extension Testing
-- Extension installation & permission validation  
-- Extension login/logout  
-- Vault access via extension  
-- Auto-fill on correct domains  
-- Auto-fill prevention on phishing or similar domains  
-- Incognito mode behavior  
+## 🐞 Severity-Based Defect Management
+
+> [!NOTE]
+> I prioritize defects using a **Risk-Based Approach** to ensure critical security flaws are addressed first.
+
+| Severity | Description | Typical Issue |
+| :--- | :--- | :--- |
+| <code style="color:red">🔴 Critical</code> | **Security Flaw** | Auth bypass or Clipboard not clearing. |
+| <code style="color:orange">🟡 Major</code> | **Functional Disruption** | Sync failure between Web and Extension. |
+| <code style="color:blue">🔵 Minor</code> | **UI/UX / Cosmetic** | Incorrect alignment or non-intuitive icons. |
 
 ---
 
-### 🔄 Sync & Data Consistency
-- Web ↔ Extension synchronization  
-- Data update & delete sync  
-- Offline → online sync behavior  
+## 📄 QA Artifacts (Repository Contents)
+
+* 📂 **[Test Strategy](./docs/Test_Strategy):** Security-focused testing approach.
+* 📂 **[Test Case Matrix](./test-cases):** Detailed positive and negative scenarios.
+* 📂 **[Defect Reports](./bug-reports):** High-quality bug logs with visual evidence.
 
 ---
 
-### ⚠️ Negative & Edge Case Testing
-- Invalid input handling  
-- Expired or incorrect OTP  
-- Network failure scenarios  
-- Multiple failed login attempts  
-- Clipboard misuse scenarios  
+## 🛠️ Environment & Tools
+* **Browsers:** `Chrome`, `Firefox`, `Edge` (Extension & Web).
+* **Network:** `Offline Mode`, `Slow 3G` (via DevTools).
+* **Tracking:** `Jira`, `MS Excel`, `Google Sheets`.
 
 ---
 
-### 🎨 UI / UX Testing
-- Error message clarity  
-- Password strength indicator  
-- Layout alignment & responsiveness  
-- Basic accessibility validation  
+## 📂 Repository Structure
 
----
-
-## 🚫 Out of Scope
-- Automation testing  
-- Penetration testing  
-- Performance / load testing  
-- Source code review  
-- Server-side encryption verification  
-
----
-
-## 🛠️ Test Environment
-
-### Platforms
-- Web Application  
-- Browser Extension  
-
-### Browsers
-- Google Chrome  
-- Mozilla Firefox  
-- Microsoft Edge  
-
-### Network Conditions
-- Normal Wi‑Fi  
-- Slow network  
-- Offline mode  
-- VPN (basic)  
-
----
-
-## 🧾 Test Artifacts Included
-- Test Scenarios Document  
-- Manual Test Coverage (A–Z)  
-- Severity Classification  
-- Risk-Based Testing Approach  
-
----
-
-## 🚦 Severity Levels
-| Severity | Description |
-|--------|------------|
-| High | Security risk, data exposure, authentication bypass |
-| Medium | Logic issues, sync failures, validation problems |
-| Low | UI, cosmetic, usability issues |
-
----
-
-## 🧠 Key Learnings
-- Security-focused manual testing methodology  
-- Browser extension QA techniques  
-- Risk-based severity classification  
-- Professional QA documentation practices  
+```text
+├── 📂 documentation
+│   └── 📄 Test_Strategy_Plan.pdf
+├── 📂 test_suites
+│   ├── 📊 Web_Test_Cases.xlsx
+│   └── 🧩 Extension_Test_Cases.xlsx
+└── 📄 README.md
+```
 
 ---
 
 ## 👤 Author
-**MD. Rezwanul Islam Rimel**  
-Manual QA Tester  
-LinkedIn:https://www.linkedin.com/in/rezwanulrimel/
+
+**Rezwanul Islam**
+*SQA Engineer | Manual & Automation Specialist*
+
+<p align="left">
+<a href="https://www.linkedin.com/in/rezwanulrimel/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+<a href="https://github.com/rezwanulislamrimel"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+</p>
 
 ---
-
+<p align="center"><i>Maintained by Rezwanul Rimel © 2026</i></p>
